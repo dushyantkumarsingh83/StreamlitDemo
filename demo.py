@@ -3,8 +3,6 @@ import pandas as pd
 import numpy as np
 import pickle  #to load a saved modelimport base64  #to open .gif files in streamlit app
 import base64
-import sklearn
-
 
 print(pickle.format_version)
 print(np.__version__)
