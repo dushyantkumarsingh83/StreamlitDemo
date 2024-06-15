@@ -79,7 +79,7 @@ elif app_mode == 'Prediction':
     single_sample = np.array(feature_list).reshape(1,-1)
 
     if st.button("Predict"):
-         file_ = open("6m-rain.gif", "rb")
+         file_ = open("dollar-rain.gif", "rb")
          contents = file_.read()
          data_url = base64.b64encode(contents).decode("utf-8")
          file_.close()
