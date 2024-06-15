@@ -83,7 +83,7 @@ elif app_mode == 'Prediction':
          contents = file_.read()
          data_url = base64.b64encode(contents).decode("utf-8")
          file_.close()
-         file = open("green-cola-no.gif", "rb")
+         file = open("no-loan.gif", "rb")
          contents = file.read()
          data_url_no = base64.b64encode(contents).decode("utf-8")
          file.close()
